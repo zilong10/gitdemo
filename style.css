@@ -1,0 +1,206 @@
+* {
+    margin: 0
+}
+
+* {
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    margin: 30px;
+    margin-left: 300px;
+    width: 60%;
+    height: 90vh;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.container>h2 {
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* first name */
+
+.fname {
+    margin-left: 250px;
+}
+
+.fname>label {
+    font-size: 20px;
+}
+
+.fname>input {
+    width: 400px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.fname>input::placeholder {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* last name */
+
+.lname {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.lname>label {
+    font-size: 20px;
+}
+
+.lname>input {
+    width: 400px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.lname>input::placeholder {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* email */
+
+.email {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.email>label {
+    font-size: 20px;
+}
+
+.email>input {
+    width: 400px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.email>input::placeholder {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/* phone number */
+
+.number {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.number>label {
+    font-size: 20px;
+}
+
+.number>input {
+    width: 400px;
+    height: 40px;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.number>input::placeholder {
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+/*gender */
+
+.gender {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.gender>p {
+    font-size: 20px;
+}
+
+.gender>label {
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+/* hobby */
+
+.check {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.check>p {
+    font-size: 20px;
+}
+
+.check>label {
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+/* dropdown */
+
+.dropdown {
+    margin: 10px;
+    margin-left: 250px;
+}
+
+.dropdown>label {
+    font-size: 20px;
+}
+
+#zone {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.f {
+    color: red;
+}
+
+.l {
+    color: red;
+}
+
+.e {
+    color: red;
+}
+
+.n {
+    color: red;
+}
+
+
+/* button */
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin: 50px;
+    margin-left: 60%;
+    cursor: pointer;
+}

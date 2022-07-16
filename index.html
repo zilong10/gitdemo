@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <div class="container">
+            <h2>Registration Form</h2>
+            <div class="fname">
+                <label for="fname" name="fname">First Name</label><br>
+                <input class="firstname" type="text" placeholder="Enter first name" required/>
+                <p class="f"></p>
+            </div>
+            <div class="lname">
+                <label for="lname" name="lname">Last Name</label><br>
+                <input class="lastname" type="text" placeholder="Enter last name" required/>
+                <p class="l"></p>
+            </div>
+            <div class="email">
+                <label for="email" name="enail">Email address</label><br>
+                <input class="emailadd" type="email" placeholder="Enter email address" required/>
+                <p class="e"></p>
+            </div>
+            <div class="number">
+                <label for="number" name="number">Phone number</label><br>
+                <input class="num" type="text" placeholder="Enter phone number" required/>
+                <p class="n"></p>
+            </div>
+            <div class="gender">
+                <p>Gender</p>
+                <label>Male
+                <input type="radio" name="radio"/>
+            </label>
+                <label>Female
+                <input type="radio" name="radio"/>
+            </label>
+                <label>Other
+                <input type="radio" name="radio"/>
+             </label>
+            </div>
+
+            <div class="check">
+                <p>Hobby</p>
+                <label>Football
+                <input type="checkbox"/>
+            </label>
+                <label>Gardening
+                <input type="checkbox"/>
+            </label>
+                <label>Reading
+                <input type="checkbox"/>
+             </label>
+            </div>
+
+            <div class="dropdown">
+                <label for="zone">Zone:</label>
+                <select name="zone" id="zone">
+                <option value="mechi">Mechi</option>
+                <option value="koshi">Koshi</option>
+                <option value="sagarmatha">Sagarmatha</option>
+                <option value="janakpur">Janakpur</option>
+                <option value="narayani">Narayani</option>
+                <option value="bagmati">Bagmati</option>
+                <option value="gandaki">Gandaki</option>
+                <option value="lumbini">Lumbini</option>
+                <option value="dhaulagiri">Dhaulagiri</option>
+                <option value="rapti">Rapti</option>
+                <option value="bheri">Bheri</option>
+                <option value="karnali">Karnali</option>
+                <option value="seti">Seti</option>
+                <option value="mahakali">Mahakali</option>
+            </select>
+            </div>
+            <button type="submit" onclick="msg()">Submit</button>
+
+        </div>
+    </form>
+    <script src="first.js"></script>
+
+</body>
+
+</html>
